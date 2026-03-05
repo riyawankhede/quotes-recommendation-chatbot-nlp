@@ -1,0 +1,21 @@
+version: "3.1"
+
+nlu:
+- intent: ask_motivation
+  examples: |
+    - motivate me
+    - give me motivation
+    - motivational quote
+    - inspire me
+
+- intent: ask_love_quote
+  examples: |
+    - give me a love quote
+    - romantic quote
+    - something about love
+
+- intent: ask_success_quote
+  examples: |
+    - success quote
+    - tell me about success
+    - how to succeed
