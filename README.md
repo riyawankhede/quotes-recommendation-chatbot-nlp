@@ -161,7 +161,7 @@ quotes-recommendation-chatbot-nlp
 
 ---
 
-step 1 : Clone the Repository
+### step 1 : Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/quotes-recommendation-chatbot-nlp.git
@@ -169,18 +169,18 @@ git clone https://github.com/yourusername/quotes-recommendation-chatbot-nlp.git
 
 ## Running the Project
 
-Step 2: Navigate to Project Folder
+### Step 2: Navigate to Project Folder
 ```bash
 cd quotes-recommendation-chatbot-nlp
 ```
 
-Step 3: Activate Conda Environment
+### Step 3: Activate Conda Environment
 ```bash
 
 conda activate chatbot
 ```
 
-Step 4: Train the Model
+### Step 4: Train the Model
 ```bash
 
 rasa train
