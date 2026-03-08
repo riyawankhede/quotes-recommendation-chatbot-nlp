@@ -1,21 +1,238 @@
 version: "3.1"
 
 nlu:
-- intent: ask_motivation
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - hey there
+    - hi bot
+    - hello chatbot
+    - greetings
+    - hello there
+
+- intent: affirm
+  examples: |
+    - yes
+    - yes I like it
+    - that was good
+    - I liked it
+    - nice quote
+    - great quote
+    - that was helpful
+    - good one
+    - I enjoyed that
+    - that's nice
+
+- intent: deny
+  examples: |
+    - no
+    - not really
+    - I didn't like it
+    - give another one
+    - another quote please
+    - something else
+    - not good
+    - try again
+    - give me another quote
+    - show me another
+    -another
+
+- intent: motivation
   examples: |
     - motivate me
-    - give me motivation
-    - motivational quote
+    - give me a motivational quote
+    - I need motivation
     - inspire me
+    - I feel demotivated
+    - motivate me today
+    - give me some motivation
+    - I want a motivational message
+    - say something motivating
+    - encouragement quote please
 
-- intent: ask_love_quote
+- intent: success
+  examples: |
+    - give me a success quote
+    - inspire me about success
+    - quote about success
+    - success motivation
+    - tell me something about success
+    - motivate me for success
+    - success quote please
+    - how to stay successful
+    - I want a quote about success
+    - success inspiration
+
+- intent: love
   examples: |
     - give me a love quote
     - romantic quote
-    - something about love
+    - quote about love
+    - something romantic
+    - love message
+    - relationship quote
+    - love inspiration
+    - romantic inspiration
+    - quote for my partner
+    - love motivation
 
-- intent: ask_success_quote
+- intent: funny
   examples: |
-    - success quote
-    - tell me about success
-    - how to succeed
+    - tell me something funny
+    - funny quote
+    - make me laugh
+    - joke quote
+    - humorous quote
+    - I want something funny
+    - say a funny line
+    - funny message please
+    - make me smile
+    - tell me a joke
+
+- intent: inspiration
+  examples: |
+    - inspire me
+    - give me inspiration
+    - inspirational quote
+    - something inspiring
+    - inspire me today
+    - inspiration message
+    - motivational inspiration
+    - inspiring quote please
+    - I need inspiration
+    - say something inspiring
+
+- intent: life
+  examples: |
+    - give me a life quote
+    - quote about life
+    - life inspiration
+    - life advice quote
+    - something about life
+    - tell me a life quote
+    - life message
+    - wisdom about life
+    - life lesson quote
+    - life motivation
+
+- intent: happiness
+  examples: |
+    - give me a happiness quote
+    - quote about happiness
+    - something happy
+    - make me feel happy
+    - happiness inspiration
+    - tell me a happy quote
+    - positive happiness quote
+    - joy quote
+    - happiness motivation
+    - share a happiness quote
+
+- intent: friendship
+  examples: |
+    - friendship quote
+    - quote about friendship
+    - best friend quote
+    - something about friendship
+    - friend inspiration
+    - message about friends
+    - friendship motivation
+    - best friend message
+    - tell me a friendship quote
+    - friendship inspiration
+
+- intent: dreams
+  examples: |
+    - dream quote
+    - quote about dreams
+    - motivate me about dreams
+    - dreams inspiration
+    - follow your dreams quote
+    - something about dreams
+    - dream motivation
+    - chasing dreams quote
+    - inspire me about dreams
+    - dreams message
+
+- intent: morning
+  examples: |
+    - good morning quote
+    - morning motivation
+    - quote for morning
+    - inspire me this morning
+    - morning message
+    - positive morning quote
+    - morning inspiration
+    - motivational morning message
+    - good morning motivation
+    - say a morning quote
+
+- intent: attitude
+  examples: |
+    - attitude quote
+    - quote about attitude
+    - positive attitude quote
+    - attitude motivation
+    - something about attitude
+    - attitude inspiration
+    - strong attitude quote
+    - attitude message
+    - confident attitude quote
+    - success attitude quote
+
+- intent: spiritual
+  examples: |
+    - spiritual quote
+    - quote about God
+    - faith quote
+    - spiritual inspiration
+    - message about faith
+    - god motivation quote
+    - prayer quote
+    - religious inspiration
+    - trust in god quote
+    - spiritual message
+
+- intent: sad
+  examples: |
+    - I feel sad
+    - I am very sad
+    - I feel unhappy
+    - I feel depressed
+    - I am feeling low
+    - I am not feeling good
+    - I feel down today
+    - I feel lonely
+    - I feel heartbroken
+    - I am emotionally tired
+
+- intent: tired
+  examples: |
+    - I feel tired
+    - I am very tired
+    - I feel exhausted
+    - I feel mentally tired
+    - I am drained
+    - I am so tired today
+    - I feel weak and tired
+    - I feel burnt out
+    - I need motivation
+    - I feel low energy
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - see you later
+    - talk to you later
+    - catch you later
+    - bye bye
+    - have a nice day
+    - youre welcome
+    - thanks for the quotes

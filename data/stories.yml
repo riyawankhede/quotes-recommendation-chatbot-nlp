@@ -1,17 +1,142 @@
 version: "3.1"
 
 stories:
-- story: motivation quote
-  steps:
-  - intent: ask_motivation
-  - action: utter_motivation
 
-- story: love quote
+# ---------------- GREET ----------------
+- story: greet user
   steps:
-  - intent: ask_love_quote
-  - action: utter_love_quote
+  - intent: greet
+  - action: utter_greet
 
-- story: success quote
+
+# ---------------- MOTIVATION ----------------
+- story: motivation flow
   steps:
-  - intent: ask_success_quote
-  - action: utter_success_quote
+  - intent: motivation
+  - action: action_set_category
+  - action: utter_motivation_intro
+  - action: action_send_quote
+
+
+# ---------------- FUNNY ----------------
+- story: funny flow
+  steps:
+  - intent: funny
+  - action: action_set_category
+  - action: utter_funny_intro
+  - action: action_send_quote
+
+
+# ---------------- LOVE ----------------
+- story: love flow
+  steps:
+  - intent: love
+  - action: action_set_category
+  - action: utter_love_intro
+  - action: action_send_quote
+
+
+# ---------------- SUCCESS ----------------
+- story: success flow
+  steps:
+  - intent: success
+  - action: action_set_category
+  - action: utter_success_intro
+  - action: action_send_quote
+
+
+# ---------------- INSPIRATION ----------------
+- story: inspiration flow
+  steps:
+  - intent: inspiration
+  - action: action_set_category
+  - action: utter_inspiration_intro
+  - action: action_send_quote
+
+
+# ---------------- LIFE ----------------
+- story: life flow
+  steps:
+  - intent: life
+  - action: action_set_category
+  - action: utter_life_intro
+  - action: action_send_quote
+
+
+# ---------------- HAPPINESS ----------------
+- story: happiness flow
+  steps:
+  - intent: happiness
+  - action: action_set_category
+  - action: utter_happiness_intro
+  - action: action_send_quote
+
+
+# ---------------- FRIENDSHIP ----------------
+- story: friendship flow
+  steps:
+  - intent: friendship
+  - action: action_set_category
+  - action: utter_friendship_intro
+  - action: action_send_quote
+
+
+# ---------------- DREAMS ----------------
+- story: dreams flow
+  steps:
+  - intent: dreams
+  - action: action_set_category
+  - action: utter_dreams_intro
+  - action: action_send_quote
+
+
+# ---------------- MORNING ----------------
+- story: morning flow
+  steps:
+  - intent: morning
+  - action: action_set_category
+  - action: utter_morning_intro
+  - action: action_send_quote
+
+
+# ---------------- ATTITUDE ----------------
+- story: attitude flow
+  steps:
+  - intent: attitude
+  - action: action_set_category
+  - action: utter_attitude_intro
+  - action: action_send_quote
+
+
+# ---------------- SPIRITUAL ----------------
+- story: spiritual flow
+  steps:
+  - intent: spiritual
+  - action: action_set_category
+  - action: utter_spiritual_intro
+  - action: action_send_quote
+
+
+# ---------------- SAD USER ----------------
+- story: sad user flow
+  steps:
+  - intent: sad
+  - action: action_set_category
+  - action: utter_firstLine
+  - action: action_send_quote
+
+
+# ---------------- TIRED USER ----------------
+- story: tired user flow
+  steps:
+  - intent: tired
+  - action: action_set_category
+  - action: utter_firstLine
+  - action: action_send_quote
+
+
+# ---------------- GOODBYE ----------------
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
