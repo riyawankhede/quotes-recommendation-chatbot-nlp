@@ -2,14 +2,14 @@ version: "3.1"
 
 stories:
 
-# ---------------- GREET ----------------
+
 - story: greet user
   steps:
   - intent: greet
   - action: utter_greet
 
 
-# ---------------- MOTIVATION ----------------
+
 - story: motivation flow
   steps:
   - intent: motivation
@@ -18,7 +18,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- FUNNY ----------------
+
 - story: funny flow
   steps:
   - intent: funny
@@ -27,7 +27,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- LOVE ----------------
+
 - story: love flow
   steps:
   - intent: love
@@ -36,7 +36,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- SUCCESS ----------------
+
 - story: success flow
   steps:
   - intent: success
@@ -45,7 +45,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- INSPIRATION ----------------
+
 - story: inspiration flow
   steps:
   - intent: inspiration
@@ -54,7 +54,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- LIFE ----------------
+
 - story: life flow
   steps:
   - intent: life
@@ -63,7 +63,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- HAPPINESS ----------------
+
 - story: happiness flow
   steps:
   - intent: happiness
@@ -72,7 +72,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- FRIENDSHIP ----------------
+
 - story: friendship flow
   steps:
   - intent: friendship
@@ -81,7 +81,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- DREAMS ----------------
+
 - story: dreams flow
   steps:
   - intent: dreams
@@ -90,7 +90,6 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- MORNING ----------------
 - story: morning flow
   steps:
   - intent: morning
@@ -99,7 +98,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- ATTITUDE ----------------
+
 - story: attitude flow
   steps:
   - intent: attitude
@@ -108,7 +107,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- SPIRITUAL ----------------
+
 - story: spiritual flow
   steps:
   - intent: spiritual
@@ -117,7 +116,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- SAD USER ----------------
+
 - story: sad user flow
   steps:
   - intent: sad
@@ -126,7 +125,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- TIRED USER ----------------
+
 - story: tired user flow
   steps:
   - intent: tired
@@ -135,7 +134,7 @@ stories:
   - action: action_send_quote
 
 
-# ---------------- GOODBYE ----------------
+
 - story: goodbye
   steps:
   - intent: goodbye
