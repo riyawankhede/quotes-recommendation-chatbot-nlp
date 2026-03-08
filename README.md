@@ -158,25 +158,33 @@ quotes-recommendation-chatbot-nlp
 
 ## Installation
 
-### Step 1: Clone the Repository
+
+---
+
+step 1 : Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/quotes-recommendation-chatbot-nlp.git
-
+```
 
 ## Running the Project
 
-### Step 2: Navigate to Project Folder
-
+Step 2: Navigate to Project Folder
+```bash
 cd quotes-recommendation-chatbot-nlp
+```
 
-### Step 3: Activate Conda Environment
+Step 3: Activate Conda Environment
+```bash
 
 conda activate chatbot
+```
 
-### Step 4: Train the Model
+Step 4: Train the Model
+```bash
 
 rasa train
+```
 
 
 ## Running the Project
@@ -184,16 +192,23 @@ rasa train
 The project requires **three terminals**.
 
 ### Terminal 1 – Start Action Server
+```bash
 
 rasa run actions
+```
 
 ### Terminal 2 – Start Rasa Server
+```bash
 
 rasa run --enable-api --cors "*"
+```
 
 ### Terminal 3 – Run Web Interface
+```bash
 
 python app.py
+
+```
 
 
 ## Open the Chatbot
@@ -202,7 +217,7 @@ Open your browser and go to:
 
 http://127.0.0.1:5000
 
-
+---
 ## Example Conversation
 
 User: Hello  
@@ -218,7 +233,7 @@ User: No
 Bot: Here is another motivation quote:  
 "The secret of getting ahead is getting started."
 
-
+---
 ## Research Papers Used
 
 1. Natural Language Processing for Conversational AI: Chatbots and Virtual Assistants  
@@ -236,12 +251,12 @@ Bot: Here is another motivation quote:
 5. A Neural Network Approach to Quote Recommendation in Writings  
    ACM CIKM Conference – 2016
 
-
+---
 ## Social Impact
 
 The chatbot promotes emotional well-being by providing motivational and uplifting quotes instantly. It helps users cope with stress, improve mood, and maintain positivity through interactive conversations.
 
-
+---
 ## Future Improvements
 
 - Sentiment analysis for emotion detection

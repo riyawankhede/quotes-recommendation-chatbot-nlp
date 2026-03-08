@@ -5,8 +5,7 @@ __pycache__/
 
 .rasa/
 models/
-__pycache__/
-*.pyc
+
 
 # C extensions
 *.so
